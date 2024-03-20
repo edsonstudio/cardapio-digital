@@ -63,3 +63,13 @@ var products = [
     quantity: 1,
   },
 ];
+
+const CardapioDigital = {
+  data() {
+    return {
+      products: window.products
+    }
+  }
+};
+
+Vue.createApp(CardapioDigital).mount('#app');
